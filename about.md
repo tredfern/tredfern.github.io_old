@@ -1,14 +1,9 @@
 ---
-layout: page
+layout: about
 title: About
-image: /assets/images/code-cs.png
 permalink: /about/
 ---
 
-<figure style="float:right">
-  <img src="{{site.url}}/assets/images/check-joystick.png" alt="old code"/>
-  <figcaption>Memory Addresses and Bitwise Operations</figcaption>
-</figure>
 I learned to program on a Commodore 64. 
 When I wasn't playing games I was I typing in games out the back of [Compute's Gazette]( https://archive.org/details/compute-gazette). 
 You didn't think in terms of functions, you crammed the code where
@@ -17,16 +12,22 @@ more instructions later!)*
 But the concepts of memory, variables, arrays, programming structure and problem solving 
 informs my understanding of development to this day.
 
+<figure>
+  <img src="{{site.url}}/assets/images/check-joystick.png" alt="old code"/>
+  <figcaption>Memory Addresses and Bitwise Operations</figcaption>
+</figure>
+
 ---
 
-<figure style="float:left; margin: 5px;">
-  <img src="{{site.url}}/assets/images/ss_Interface2.jpg" alt="ROAM Engine"/>
-  <figcaption>ROAM was cool to learn. I was proud of this back in the day</figcaption>
-</figure>
 I moved on through the era of GWBasic and QBasic in MS-DOS, Visual Basic 3-6 on Windows,
 C++ with that amazing DirectX library. QueryInterface much? 
 Programming was something I did professionally. Then I would go home, play music, and 
 code into the late night.
+
+<figure>
+  <img src="{{site.url}}/assets/images/ss_Interface2.jpg" alt="ROAM Engine"/>
+  <figcaption>ROAM was cool to learn. I was proud of this back in the day</figcaption>
+</figure>
 
 As my career progressed I learned about the architecture principles
 of SOLID, TDD, and Agile processes. I developed in more languages like NodeJS, Ruby, C# and Lua. 

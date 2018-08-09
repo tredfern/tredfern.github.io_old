@@ -22,14 +22,29 @@ url: "http://tredfern.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: treevor
 github_username:  tredfern
 youtube_username: tredfern
-
+author: 
+  name: Trevor Redfern
+  picture: /assets/images/profile.jpg
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
 
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+read_time: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
