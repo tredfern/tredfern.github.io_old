@@ -36,10 +36,9 @@ I have worked in nearly a dozen different industries and I find the problems tha
 ---
 
 These days, my professional career has moved on from programming. I build teams
-of programmers and work to help them succeed. I love that work. Working
-with people is a frustrating pleasure.
+of programmers and work to help them succeed. I love that work. 
 
-But my passion will always be in the code. 
+But my passion will always be in the code.
 It's my belief that a misunderstanding about coding is that it's something strange
 and foreign. That somehow, something has to be a little off for someone to enjoy it.
 I feel that coding is as human an expression as arts, music and writing. It's 
