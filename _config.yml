@@ -13,22 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: tredfern
+title: Where the Redfern Codes
 email: trevorredfern@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Coding, Learning, and Organizational Development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tredfern.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: treevor
-twitch_username: turtlecoder
+twitter_username: CodesWhere
+twitch_username: wheretheredferncodes
 github_username:  tredfern
-youtube_username: thebognug
 author: 
   name: Trevor Redfern
+  email: trevorredfern@gmail.com
   picture: /assets/images/profile.jpg
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/jekyll-theme-basically-basic
+remote_theme:  "mmistakes/so-simple-theme@3.2.0"
+# remote_theme: mmistakes/jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -46,6 +47,20 @@ defaults:
     values:
       layout: post
 read_time: true
+
+footer_links:
+  - title: twitch
+    url: https://twitch.tv/wheretheredferncodes
+    icon: fab fa-twitch
+  - title: twitter
+    url: https://twitter.com/CodesWhere
+    icon: fab fa-twitter-square
+  - title: github
+    url: https://github.com/tredfern
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
