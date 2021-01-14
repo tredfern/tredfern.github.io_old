@@ -12,7 +12,7 @@ entries_layout: list
 Welcome! After a tiring 2020, I decided to do something different for myself in 2021. 
 Each weekend, I will be streaming live development for 3-4 hours on this project and talking about what steps I'm taking. I will be try and provide insights into how to write clean tests, different ways to solve programming challenges, and at some point, maybe even have an interesting product.
 
-This is a summary of development for the project [Terminus](https://github.com/tredfern/terminus). Here I will try to summarize and link to the commits that I made. If I do any development offscreen, I will attempt to summarize that work here as well.
+This is a summary of development for the project [Terminus](https://github.com/tredfern/terminus). I will discuss some of the commits made with links to the source code. Depending on complexity, I'll describe why I made the decisions I did or what tradeoffs to consider. 
 
 Feel free to reach out with questions and suggestions.
 -Trevor
