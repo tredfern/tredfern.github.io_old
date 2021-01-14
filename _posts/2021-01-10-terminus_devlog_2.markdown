@@ -4,6 +4,10 @@ layout: post
 date:   2021-01-10
 ---
 
+> **In this session...**
+> - Adding turns and turn counter
+> - Basic Enemy AI
+> - Entering a character name / basic UI work
 
 ## Introducing Turns
 
