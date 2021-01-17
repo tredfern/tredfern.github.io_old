@@ -29,6 +29,7 @@ author:
 # Build settings
 markdown: kramdown
 remote_theme:  "mmistakes/so-simple-theme@3.2.0"
+google_analytics: G-NQ3FM6486G
 # remote_theme: mmistakes/jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
@@ -61,6 +62,7 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
