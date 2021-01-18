@@ -40,6 +40,11 @@ plugins:
 feed:
   path: atom.xml
 
+skin: "/assets/css/skins/light.css"
+
+disqus:
+  shortname: wheretheredferncodes
+
 defaults:
   # _posts
   - scope:

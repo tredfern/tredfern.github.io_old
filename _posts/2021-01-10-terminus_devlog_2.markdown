@@ -2,6 +2,7 @@
 title: Summary of January 9-10
 layout: post
 date:   2021-01-10
+excerpt: Introduction of turns and basic enemy _random_ AI.
 ---
 
 > **In this session...**
