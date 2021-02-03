@@ -3,7 +3,7 @@ title: Devlog Update 5 (Jan 30-31 Stream)
 layout: post
 date:   2021-02-03
 image: https://www.dropbox.com/s/pzws4fngvcecai1/postimage-20210203.png?raw=1
-excerpt: Displaying a message log and performing combat rolls
+excerpt: Displaying a message log and performing combat rolls ![Progress](https://www.dropbox.com/s/ipwl3gxs3h5yts2/terminus_20210202.gif?raw=1)
 ---
 
 > **In this [session](https://github.com/tredfern/terminus/blob/main/docs/sessionnotes/20210130.md)**
@@ -297,4 +297,4 @@ been updated to use camelCase.
 
 [All the changes](https://github.com/tredfern/terminus/compare/poststream-20210124...poststream-20210131)
 
-[Progress](https://www.dropbox.com/s/ipwl3gxs3h5yts2/terminus_20210202.gif?raw=1)
+![Progress](https://www.dropbox.com/s/ipwl3gxs3h5yts2/terminus_20210202.gif?raw=1)
