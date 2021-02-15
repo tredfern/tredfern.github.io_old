@@ -3,7 +3,7 @@ title: January 23-24 Session Review
 layout: post
 date:   2021-01-28
 image: https://www.dropbox.com/s/empi3ofceze1t2t/postimage-20210127.png?raw=1
-excerpt: Generating dungeon maps using binary space partitioning. 
+excerpt: Generating dungeon maps using binary space partitioning. ![Screenshot](https://www.dropbox.com/s/u9iclyqabcprh55/Screenshot%202021-01-24%20132733.png?raw=1)
 ---
 
 > **In this [session](https://github.com/tredfern/terminus/blob/main/docs/sessionnotes/20210123.md)**

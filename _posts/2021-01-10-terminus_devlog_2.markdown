@@ -1,8 +1,8 @@
 ---
-title: January 9-10 Session Review
+title: Devlog 2 - January 9-10 Session Review
 layout: post
 date:   2021-01-10
-excerpt: Introduction of turns and basic enemy _random_ AI.
+excerpt: Introduction of turns and basic enemy _random_ AI. {Screenshot missing}
 ---
 
 > **In this session...**

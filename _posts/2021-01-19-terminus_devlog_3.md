@@ -2,7 +2,7 @@
 title: January 16-17 Session Review
 layout: post
 date:   2021-01-19
-excerpt: Setting up the map, camera and some initial stats for characters. Plus simple refactoring adventures.
+excerpt: Setting up the map, camera and some initial stats for characters. Plus simple refactoring adventures. ![Screenshot](https://www.dropbox.com/s/m7yo1xbv4o8gr1k/Screenshot%202021-01-17%20211714.png?raw=1)
 ---
 
 [![Release](https://img.shields.io/badge/Download-20210117-informational)](https://github.com/tredfern/terminus/releases/tag/poststream-20210117)

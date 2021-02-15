@@ -3,7 +3,7 @@ title: Terminus Devlog 6 - Skills, Inventory, and Items
 layout: post
 date: 2021-02-10
 image: https://www.dropbox.com/s/1w5dqpdg0u8kw2s/postimage-20210210.png?raw=1
-excerpt: Adding the framework for skills, inventory and items
+excerpt: Adding the framework for skills, inventory and items ![Progress](https://www.dropbox.com/s/lbeaghjgskk3895/terminus_devlog_6.gif?raw=1)
 ---
 
 [Release Download](https://github.com/tredfern/terminus/releases/tag/poststream-20210207)
