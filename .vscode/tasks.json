@@ -6,7 +6,8 @@
         {
             "label": "Run",
             "type": "shell",
-            "command": "jekyll serve",
+            "command": "bundle",
+            "args": ["exec", "jekyll", "server", "--future"],
             "problemMatcher": []
         }
     ]
