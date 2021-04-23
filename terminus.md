@@ -20,7 +20,7 @@ permalink: /terminus/
 
 [![Build Status](https://travis-ci.com/tredfern/terminus.svg?branch=main)](https://travis-ci.com/tredfern/terminus)
 [![Coverage Status](https://coveralls.io/repos/github/tredfern/terminus/badge.svg?branch=main)](https://coveralls.io/github/tredfern/terminus?branch=main)
-[![GitHub milestone](https://img.shields.io/github/milestones/progress-percent/tredfern/terminus/2)](https://github.com/tredfern/terminus/milestone/2)
+[![GitHub milestone](https://img.shields.io/github/milestones/progress-percent/tredfern/terminus/3)](https://github.com/tredfern/terminus/milestone/3)
 [![Love2D Version](https://img.shields.io/badge/love2d-11.3-pink.svg)](https://love2d.org)
 
 # The Terminus Project
@@ -120,7 +120,7 @@ This is some next steps to lay good foundations depending on what comes up next
   - Options screen: Simple ability to set resolution for game, change key maps. This is to prevent anything being too rigid to change later
   - Character Details Screen: Something in game to pop-up a display over the map
 
-### 1. Simple never ending roguelike <-- I am Here -->
+### 1. Simple never ending roguelike [COMPLETED]
 This should focus on moving the character around an testing the combat system
   - Inventory to equip melee and ranged weapon
   - Create enemy spawners that trigger new enemies whenever rooms are empty
@@ -131,7 +131,7 @@ This should focus on moving the character around an testing the combat system
   - AI that charges the player down
   - Some ability to heal character
 
-### 2. Expanding the map system
+### 2. Expanding the map system <-- I AM HERE -->
 Expanding the maps slightly
   - Ladders that go up/down. When returning to a previous level the level should look like it did when you left
   - Introduce skill checks like a computer terminal that opens a door, 

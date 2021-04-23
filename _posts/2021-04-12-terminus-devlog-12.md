@@ -38,7 +38,7 @@ and get the screen rendered quickly. Those items and things in the world should 
 ## Next up
 
 I'd like to explore adding some descriptions and more variance for rooms to give a bit more character to
-the maps. Maybe some rooms with different shapes as well. 
+the maps. Maybe some rooms with different shapes as well.
 
 
 
