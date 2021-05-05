@@ -68,6 +68,8 @@ footer_links:
     url: atom.xml
     icon: fas fa-rss-square
 
+paginate: 10  # amount of posts to show per page
+paginate_path: /page:num/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
