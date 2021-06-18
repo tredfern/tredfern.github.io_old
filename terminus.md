@@ -131,16 +131,18 @@ This should focus on moving the character around an testing the combat system
   - AI that charges the player down
   - Some ability to heal character
 
-### 2. Expanding the map system <-- I AM HERE -->
-Expanding the maps slightly
-  - Ladders that go up/down. When returning to a previous level the level should look like it did when you left
-  - Introduce skill checks like a computer terminal that opens a door, 
-  - Items are added to rooms/corridors that could serve a function for skill checks
-  - Description generators for rooms
-  - "Static" rooms that could be used for key plot points
-  - Map zoom out display
+### 2. Foundational Improvements <-- I AM HERE -->
+- Multilevel Maps
+- Animation System
+- Better UI/UX building blocks
+- Better entity management
+- Better location management
+- Better information for AI/Map decisions
 
-### 3. Improved AI
+### 3. Milestone 3 - Characters and BestiaryoMore Monsters
+Add NPCs
+Improve Character Creation
+New AI functions
   - Patrolling AI that moves from room to room 
   - Guard AI that stays in room until the player enters
   - Repair AI that fixes up enemy units that are damaged
@@ -155,6 +157,23 @@ Expanding the maps slightly
   - Intro screen setting up the scene
   - Define a story arc based on the levels that you move through
   - Introduce different environment conditions (Fire and Vacuum)
+
+### 5. Equipment, Items, Crafting
+- Expand inventory of items
+- Expand map features and items that can be interacted with
+- What kinds of crafting, customization should be available?
+- Build out UI/UX for interacting with items.
+
+### 6. Feedback Cycle
+Get an initial round of feedback and address obvious shortcomings
+
+### 7. Audio/Visual Enhancements
+A milestone to focus on improving the visual components for the game
+
+### 8. Environment and Hazards
+Fire, Vacuum, Fluids, Gases, etc... Those things that make the environment of the world feel alive (or deadly)
+
+### 9. Initial Release
 
 ## Technical Notes
 
@@ -171,24 +190,3 @@ receiving user input. The `store` manages the game state and all the information
 Both of these patterns are similar in spirit to [React-Redux](https://react-redux.js.org/). By isolating state and
 making sure all updates are coordinated through actions and reducers, we can easily control state changes and centralize
 the updates.
-
-### Project Organization
-
-The project is organized around the concept of `rules`. Rules represent some either complex interactions or entity in
-the game. For example, currently there is a `character` rule section, and a `combat` rule section. Each with it's own
-concerns. Within any rules domain, there can be `actions` which can be dispatched to the store, `selectors` which
-retrieve values from state, or any other `custom` functionality that makes the most sense for this section of the rules.
-
-By separating into various section, each rules area can control a section of state. If any other rules area wants to
-modify another rules state section, it dispatches the appropriate action to the other rule for those to be handle.
-
-#### An Example
-
-Characters manage the various bits of information like, how much health do I have, what is my name, what team am I on, etc...
-Combat manages the interaction between potentially characters, but could be other entities as well. But has no
-state of it's own that it manages.
-
-When a character `attacks` another character. A combat action is dispatched to resolve the attack and encapsulate all
-the rules about how combat is resolved. The combat might need to check-in with the `skills` rules and to figure out
-how some competing skill checks get resolved. Depending on that resolution it will dispatch updates to the character
-that some damage has occurred, or some ammunition is consumed, etc...
