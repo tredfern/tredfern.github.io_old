@@ -2,8 +2,8 @@
 
 - title: Home
   url: /
-- title: Terminus
-  url: /terminus/
+# - title: Plush Rangers
+#   url: /terminus/
 # - title: Categories
 #   url: /categories/
 # - title: Tags
@@ -12,7 +12,5 @@
 #   url: /recipes/
 # - title: Search
 #   url: /search/
-- title: Moonpie
-  url: /moonpie/
-- title: Twitch Channel
-  url: https://twitch.tv/wheretheredferncodes
+# - title: Moonpie
+#   url: /moonpie/
